@@ -1,5 +1,5 @@
 # CS231n-Project
-COVID-19 Net Model for Covid-19 Detection using Chest X-Rays 
+Implementing CNN Model for Covid-19 Detection using Chest X-Rays 
 
 ## Generating the Dataset 
 1. Download the datasets listed below:
