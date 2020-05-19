@@ -25,10 +25,11 @@ Implementing CNN Model for Covid-19 Detection using Chest X-Rays
 |  ckpt |      224x224     |   87.1 (on 31 test)  |   92.6   |     117.4    |   2.26   |[COVIDNet-CXR Small](https://bit.ly/CovidNet-CXR-Small)|
 |  ckpt |      224x224     |   96.8 (on 31 test)  |   94.4   |     127.4    |   3.59   |[COVIDNet-CXR Large](https://bit.ly/CovidNet-CXR-Large)|
 
+## Training and Testing the COVID-19 Net
 
 ### Training Steps 
 TF training script from a pretrained model:
-1. Use the tensorflow evaluation script, [train_tf.py](../train_tf.py)
+1. Use the tensorflow evaluation script, [train_tf.py](train_tf.py)
 2. Locate the tensorflow checkpoint files (location of pretrained model)
 3. To train from a pretrained model:
 ```
@@ -40,7 +41,7 @@ python train_tf.py \
 4. For more options and information, `python train_tf.py --help`
 
 ### Evaluation Steps 
-1. Use the tensorflow evaluation script, [eval.py](../eval.py)
+1. Use the tensorflow evaluation script, [eval.py](eval.py)
 2. Locate the tensorflow checkpoint files
 3. To evaluate a tf checkpoint:
 ```
